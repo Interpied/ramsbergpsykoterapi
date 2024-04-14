@@ -38,15 +38,21 @@ hr{
 
 #header {
     height: auto;
-    background-color: white;
+    background-color: #85957e;
     align-items: center;
+    color: white;
+    padding-top: 8vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
 
     h1 {
-        font-size: 5vw;
+        font-size: 8rem;
         font-family: inria_serif;
+        letter-spacing: 0.4rem;
         font-weight: 500;
-        margin-top: 8vh;
-        margin-bottom: -10vh
+        margin-top: 0px;
+        margin-bottom: -10vh;
+        color: white;
     }
 
     a{
@@ -93,7 +99,7 @@ hr{
             /* margin-top: 10vh; */
             margin: 14vh 6vw 8vh 6vw;
             font-family: inria_serif;
-            font-size: 3.4vh;
+            font-size: 3.5rem;
             letter-spacing: 3px;
             color: #424242;
         }
@@ -124,7 +130,7 @@ hr{
         font-family: inria_serif_bold;
         font-size: 2.7rem;
         font-weight: 700;
-        margin-bottom: 10px;
+        margin-bottom: 3rem;
     }
 
     #id2{
@@ -214,7 +220,7 @@ hr{
     cursor: pointer;
     display: inline-flex;
     font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 5vh;
+    font-size: 3rem;
     font-weight: 600;
     justify-content: center;
     line-height: 1.25;
