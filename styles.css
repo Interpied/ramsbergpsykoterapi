@@ -16,7 +16,7 @@ body{
 
 hr{
     height:1px; 
-    width:80%; 
+    width:60%; 
     border-width:0;
     color:black;
     background-color:black;
@@ -47,6 +47,11 @@ hr{
         font-weight: 500;
         margin-top: 8vh;
         margin-bottom: -10vh
+    }
+
+    a{
+        text-decoration: none;
+        color: #343434
     }
 }
 
@@ -88,15 +93,15 @@ hr{
             /* margin-top: 10vh; */
             margin: 14vh 6vw 8vh 6vw;
             font-family: inria_serif;
-            font-size: 4.5vh;
-            letter-spacing: 4px;
+            font-size: 3.4vh;
+            letter-spacing: 3px;
             color: #424242;
         }
     }
 }
 
 #information {
-    padding-top: 50vh;
+    padding-top: 0;
     /* background-color: blueviolet; */
     height: auto;
 
@@ -192,7 +197,7 @@ hr{
 }
 
 #tidsbokning {
-    height: 10vh;
+    height: auto;
     background-color: transparent;
     /* margin-top: -12vh; */
     /* margin-bottom: 3vh; */
@@ -255,6 +260,11 @@ hr{
         font-size: 1.3rem;
         line-height: 2.4rem;
     }
+
+    #lank{
+        text-decoration: none;
+        color: black;
+    }
 }
 
 #las_mer {
@@ -269,10 +279,9 @@ hr{
         font-size: 1.5rem;
         margin: 1rem 15vw;
         text-align: left;
+        
         max-width: 800px;
         margin: auto;
-        max-width: 90vw;
-        max-width: 800px;
     }
 }
 
@@ -289,21 +298,28 @@ hr{
     #id1 {
         font-family: inria_serif;
         font-size: 1.2rem;
+        color: white;
     }
 
     #id2 {
         font-family: inria_serif;
         font-size: 1.1rem;
+        color: white;
     }
 
     #id3 {
         font-family: inria_serif;
         font-size: 0.8rem;
+
     }
 
     h2{
         margin-top: 20px;
         margin-bottom: 50px;
+    }
+
+    a{
+        text-decoration: none;
     }
 }
 
@@ -320,7 +336,7 @@ hr{
         margin-top: 0px;
         font-weight: 600;
 
-        background-color: #ACBFA4;
+        background-color: #85957e;
         border: 1px solid transparent;
         padding: 12px;
         border-radius: 10px;
@@ -343,9 +359,30 @@ hr{
     }
 }
 
-@media (max-width: 565px){
+#teoretisk_grund{
+    height: auto;
+    p {
+        font-family: inria_serif_bold;
+        letter-spacing: 2px;
+        font-size: 1.2rem;
+        font-weight: 400;
+
+        line-height: 2rem;
+    }
+}
+
+@media (max-width: 542px){
     #omslagsbild > div > p{
-        font-size: 1.4rem;
+        font-size: 3vh;
         letter-spacing: 3px;
+
+    }
+
+
+}
+
+@media (max-width: 900px) {
+    #las_mer > p {
+        max-width: 80vw;
     }
 }
