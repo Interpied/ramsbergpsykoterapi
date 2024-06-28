@@ -61,6 +61,12 @@ hr{
     }
 }
 
+#header_kontakt {
+    color: #aa0000;
+    padding-top: 5%;
+    margin-bottom: 0%;
+}
+
 #omslagsbild {
     height: 50vh;
     /* background-color: #91a489; */
@@ -340,7 +346,8 @@ hr{
 
     #mail{
         color:white;
-        margin-top: 25px;
+        margin-top: 10px;
+        margin-bottom: 20px;
         font-weight: 600;
 
         background-color: #85957e;
