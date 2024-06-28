@@ -51,7 +51,7 @@ hr{
         letter-spacing: 0.4rem;
         font-weight: 500;
         margin-top: 0px;
-        margin-bottom: -10vh;
+        
         color: white;
     }
 
@@ -63,8 +63,16 @@ hr{
 
 #header_kontakt {
     color: #aa0000;
-    padding-top: 5%;
-    margin-bottom: 0%;
+    padding-top: auto;
+    margin-bottom: -10vh;
+    h2{
+        font-size: 2rem;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #aa0000;
+    }
 }
 
 #omslagsbild {
