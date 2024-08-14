@@ -120,6 +120,13 @@ hr{
             letter-spacing: 3px;
             color: #424242;
         }
+
+        #notis {
+            margin: 0vh 6vw 8vh 6vw;
+            font-size: 1.9vh;
+            letter-spacing: 2px;
+            color: #424242;
+        }
     }
 }
 
