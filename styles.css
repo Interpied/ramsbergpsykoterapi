@@ -105,7 +105,7 @@ hr{
         position: absolute;
         width: 88vw;
         max-width: 865px;
-        height: 80vh;
+        height: 82vh;
         border-radius: 30px;
         margin: auto;
         top: 30vh;
@@ -123,8 +123,8 @@ hr{
 
         #notis {
             margin: 0vh 6vw 8vh 6vw;
-            font-size: 1.9vh;
-            letter-spacing: 2px;
+            font-size: 1.55vh;
+            letter-spacing: 1.7px;
             color: #424242;
         }
     }
