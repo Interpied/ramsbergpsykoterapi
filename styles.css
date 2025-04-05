@@ -336,12 +336,29 @@ hr{
         font-family: inria_serif;
         font-size: 1.1rem;
         color: white;
+        white-space: pre;
+        text-decoration: none;
     }
 
     #id3 {
         font-family: inria_serif;
         font-size: 0.8rem;
 
+    }
+
+    #id4{
+        font-family: inria_serif;
+        font-size: 1.1rem;
+        color: white;
+        white-space: pre;
+        text-decoration: none;
+
+        img{
+            height: 2rem;
+        }
+        #padded {
+            padding-left: 2.5%;
+        }
     }
 
     h2{
@@ -351,6 +368,7 @@ hr{
 
     a{
         text-decoration: none;
+        color:white;
     }
 }
 
