@@ -157,7 +157,7 @@ hr{
             /* margin-top: 10vh; */
             margin: 8vh 6vw 8vh 6vw;
             font-family: inria_serif;
-            font-size: 3vh;
+            font-size: 2.5vh;
             letter-spacing: 3px;
             color: #424242;
         }
@@ -324,6 +324,10 @@ hr{
         font-family: inria_serif_bold;
         letter-spacing: 4px;
         font-size: 1.4rem;
+    }
+
+    #button-priser{
+        font-size: 1.5rem;
     }
 
     #bokningsinfo{
